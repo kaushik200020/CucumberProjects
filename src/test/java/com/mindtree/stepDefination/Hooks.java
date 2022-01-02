@@ -37,6 +37,7 @@ public class Hooks extends WebDriverManager {
 	@After
 	public void tearDown() {
 		log.info("Driver closed");
+		log.info("Scenario completed");
 		driver.close();
 	}
 
